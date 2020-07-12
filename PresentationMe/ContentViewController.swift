@@ -21,11 +21,11 @@ class ContentViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         presentTextLabel.text = presentText
         emojiLabel.text = emoji
-        pageControl.currentPage = currentPage
         pageControl.numberOfPages = numberOfPages
+        pageControl.currentPage = currentPage
     }
 
 }
