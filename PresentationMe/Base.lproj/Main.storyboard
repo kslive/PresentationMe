@@ -21,10 +21,20 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@ksllive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEe-dY-wZn">
+                                <rect key="frame" x="10" y="666" width="394" height="24"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="cJA-h3-2oi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0WT-ep-wcI"/>
+                            <constraint firstItem="AEe-dY-wZn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="FwE-cY-bo6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AEe-dY-wZn" secondAttribute="bottom" constant="172" id="FxT-70-7nW"/>
+                            <constraint firstItem="AEe-dY-wZn" firstAttribute="top" secondItem="cJA-h3-2oi" secondAttribute="bottom" constant="206" id="iHR-fr-Gul"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AEe-dY-wZn" secondAttribute="trailing" constant="10" id="q2W-wZ-P1s"/>
                             <constraint firstItem="cJA-h3-2oi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xMt-Ux-cSO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
